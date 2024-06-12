@@ -6,7 +6,7 @@ For my final stats project, I decided to use Bayesian Optimization through GPyOp
 
 The Mora model has a term called the acceleration time which is dependent on the laser pulse width $\tau$. Djordjevic suggests that this acceleration time is linearly dependent on the laser pulse width ($\tau$), laser intensity ($I_0$), target thickness (D), and prepulse scale length (Lg). In this project, I adjusted the acceleration time equation to fit suggestions from the Djordjevic papers.
 
-$t_a = \alpha_1*\tau + \alpha_2*I_0 + \alpha_3*n_0 + \alpha_4*D + \alpha_5*Lg$
+$ t_a = \alpha_1 * \tau + \alpha_2 * I_0 + \alpha_3 * n_0 + \alpha_4 * D + \alpha_5 * Lg$
 
 In the Djordjevic papers, he also varied $n_0$, but decided it had no notable effect on the ion energy. I included it for completeness. 
 
